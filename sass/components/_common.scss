@@ -1,0 +1,61 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: $secondary-text-color;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $main-text-color;
+}
+
+.button {
+  display: block;
+  min-width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// блок иконок социальных сетей
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social__link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__icon {
+  fill: currentColor;
+}
