@@ -30,6 +30,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: $third-text-color;
 
   display: block;
@@ -53,9 +54,7 @@
 }
 
 .footer__title {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font($fw: 700, $lh: 1.14);
   text-transform: uppercase;
   margin-bottom: 20px;
 

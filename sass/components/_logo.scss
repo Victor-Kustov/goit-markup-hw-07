@@ -1,27 +1,24 @@
 .logo {
   display: inline-block;
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font($fw: 700, $fs: 26px, $lh: 1.19);
   color: $accent-color;
 }
 
-.header--logo {
+.header__logo {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.footer--logo {
+.footer__logo {
   margin-bottom: 20px;
 }
 
-.dark--logo {
+.logo__dark {
   color: $header-logo-color;
 }
 
-.bright--logo {
+.logo__bright {
   color: $footer-logo-color;
 }

@@ -1,11 +1,7 @@
 .filter__button {
   display: block;
   padding: 6px 22px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  @include font($fw: 500, $fs: 16px, $lh: 1.62);
   color: $filter-button-color;
   background: $filter-button-bgcolor;
   border-radius: 4px;

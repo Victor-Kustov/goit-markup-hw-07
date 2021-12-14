@@ -17,22 +17,37 @@
 <body>
     <header class="header">
         <div class="container header__container">
-            <a class="logo header--logo" href="#">
+            <a class="logo header__logo" href="#">
                 Web
-                <span class="dark--logo">
+                <span class="logo__dark">
                     Studio
                 </span>
             </a>
             <nav class="navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a class="navigation__link pagemark" href="./index.html">Студия</a>
+                        <a
+                            class="navigation__link navigation__link--active"
+                            href="./index.html"
+                        >
+                            Студия
+                        </a>
                     </li>
                     <li class="navigation__item">
-                        <a class="navigation__link" href="./portfolio.html">Портфолио</a>
+                        <a
+                            class="navigation__link"
+                            href="./portfolio.html"
+                        >
+                            Портфолио
+                        </a>
                     </li>
                     <li class="navigation__item">
-                        <a class="navigation__link" href="#">Контакты</a>
+                        <a
+                            class="navigation__link"
+                            href="#"
+                        >
+                            Контакты
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -70,101 +85,160 @@
             </div>
         </section>
         <section class="section">
-            <div class="container benefits">
+            <div class="container">
                 <h2 class="visually-hidden">Наши преимущества</h2>
-                <ul class="benefits__list">
-                    <li class="benefits-thumb">
-                        <div class="benefits-thumb__img">
-                            <svg class="benefits-thumb__icon" width="70" height="70">
-                                <use href="./images/icons.svg#icon-antenna"></use>
+                <ul class="benefits">
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg
+                                class="benefits__icon"
+                                width="70"
+                                height="70"
+                            >
+                                <use
+                                    href="./images/icons.svg#icon-antenna"
+                                >
+                                </use>
                             </svg>
                         </div>
-                        <h3 class="benefits-thumb__title">Внимание к деталям</h3>
-                        <p class="benefits-thumb__text">
+                        <h3 class="benefits__title">
+                            Внимание к деталям
+                        </h3>
+                        <p class="benefits__text">
                             Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
-                    <li class="benefits-thumb">
-                        <div class="benefits-thumb__img">
-                            <svg class="benefits-thumb__icon" width="70" height="70">
-                                <use href="./images/icons.svg#icon-astronaut"></use>
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg
+                                class="benefits__icon"
+                                width="70"
+                                height="70"
+                            >
+                                <use
+                                    href="./images/icons.svg#icon-astronaut"
+                                >
+                                </use>
                             </svg>
                         </div>
-                        <h3 class="benefits-thumb__title">Пунктуальность</h3>
-                        <p class="benefits-thumb__text">
+                        <h3 class="benefits__title">
+                            Пунктуальность
+                        </h3>
+                        <p class="benefits__text">
                             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                         </p>
                     </li>
-                    <li class="benefits-thumb">
-                        <div class="benefits-thumb__img">
-                            <svg class="benefits-thumb__icon" width="70" height="70">
-                                <use href="./images/icons.svg#icon-clock"></use>
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg
+                                class="benefits__icon"
+                                width="70"
+                                height="70"
+                            >
+                                <use
+                                    href="./images/icons.svg#icon-clock"
+                                >
+                                </use>
                             </svg>
                         </div>
-                        <h3 class="benefits-thumb__title">Планирование</h3>
-                        <p class="benefits-thumb__text">
+                        <h3 class="benefits__title">
+                            Планирование
+                        </h3>
+                        <p class="benefits__text">
                             Равным образом консультация с широким активом в значительной степени обуславливает.
                         </p>
                     </li>
-                    <li class="benefits-thumb">
-                        <div class="benefits-thumb__img">
-                            <svg class="benefits-thumb__icon" width="70" height="70">
-                                <use href="./images/icons.svg#icon-diagram"></use>
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg
+                                class="benefits__icon"
+                                width="70"
+                                height="70"
+                            >
+                                <use
+                                    href="./images/icons.svg#icon-diagram"
+                                >
+                                </use>
                             </svg>
                         </div>
-                        <h3 class="benefits-thumb__title">Современные технологии</h3>
-                        <p class="benefits-thumb__text">
+                        <h3 class="benefits__title">
+                            Современные технологии
+                        </h3>
+                        <p class="benefits__text">
                             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="section business">
+        <section class="section section--no-padding-top">
             <div class="container">
-                <h2 class="title business__title">Чем мы занимаемся</h2>
-                <ul class="business__list">
-                    <li class="business-thumb">
-                        <div class="business-thumb__img">
-                            <img src="./images/img1.jpg" alt="Фото человек работает за компьютером" width="370" height="294">
+                <h2 class="section__title">
+                    Чем мы занимаемся
+                </h2>
+                <ul class="business">
+                    <li class="business__item">
+                        <div class="business__box">
+                            <img
+                                src="./images/img1.jpg"
+                                alt="Фото человек работает за компьютером"
+                                width="370"
+                                height="294"
+                            >
                         </div>
-                        <div class="business-thumb__block">
-                            <p class="business-thumb__text">Десктопные приложения</p>
+                        <div class="business__overlay">
+                            <p class="business__text">Десктопные приложения</p>
                         </div>
                     </li>
-                    <li class="business-thumb">
-                        <div class="business-thumb__img">
-                            <img src="./images/img2.jpg" alt="Фото человек смотрит в телефон" width="370" height="294">
+                    <li class="business__item">
+                        <div class="business__box">
+                            <img
+                                src="./images/img2.jpg"
+                                alt="Фото человек смотрит в телефон"
+                                width="370"
+                                height="294"
+                            >
                         </div>
-                        <div class="business-thumb__block">
-                            <p class="business-thumb__text">Мобильные приложения</p>
+                        <div class="business__overlay">
+                            <p class="business__text">Мобильные приложения</p>
                         </div>
                     </li>
-                    <li class="business-thumb">
-                        <div class="business-thumb__img">
-                            <img src="./images/img3.jpg" alt="Фото человек смотрит в планшет" width="370" height="294">
+                    <li class="business__item">
+                        <div class="business__box">
+                            <img
+                                src="./images/img3.jpg"
+                                alt="Фото человек смотрит в планшет"
+                                width="370"
+                                height="294"
+                            >
                         </div>
-                        <div class="business-thumb__block">
-                            <p class="business-thumb__text">Дизайнерские решения</p>
+                        <div class="business__overlay">
+                            <p class="business__text">Дизайнерские решения</p>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="section team">
+        <section class="section section--other-bg-color">
             <div class="container">
-                <h2 class="title team-title">Наша команда</h2>
-                <ul class="team__list">
-                    <li class="team-thumb">
+                <h2 class="section__title">
+                    Наша команда
+                </h2>
+                <ul class="team">
+                    <li class="team-item">
                         <img
                             src="./images/photo1.jpg"
                             alt="Product Designer"
                             width="270"
                             height="280"
                         >
-                        <div class="team-thumb__about">
-                            <h3 class="team-thumb__title">Игорь Демьяненко</h3>
-                            <p class="team-thumb__text" lang="en">Product Designer</p>
+                        <div class="team__thumb">
+                            <h3 class="team__title"
+                                >Игорь Демьяненко
+                            </h3>
+                            <p class="team__text" lang="en">
+                                Product Designer
+                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a class="social__link social__link--team" href="">
@@ -197,7 +271,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-thumb">
+                    <li class="team-item">
                         <img
                             src="./images/photo2.jpg"
                             alt="Frontend Dev
@@ -205,9 +279,13 @@
                             ="270" heigh
                             t="280"
                         >
-                        <div class="team-thumb__about">
-                            <h3 class="team-thumb__title">Ольга Репина</h3>
-                            <p class="team-thumb__text" lang="en">Frontend Developer</p>
+                        <div class="team__thumb">
+                            <h3 class="team__title">
+                                Ольга Репина
+                            </h3>
+                            <p class="team__text" lang="en">
+                                Frontend Developer
+                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a class="social__link social__link--team" href="">
@@ -240,16 +318,20 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-thumb">
+                    <li class="team-item">
                         <img
                             src="./images/photo3.jpg"
                             alt="Marketing" w
                             dth="270"
                             hight="280"
                         >
-                        <div class="team-thumb__about">
-                            <h3 class="team-thumb__title">Николай Тарасов</h3>
-                            <p class="team-thumb__text" lang="en">Marketing</p>
+                        <div class="team__thumb">
+                            <h3 class="team__title"
+                                >Николай Тарасов
+                            </h3>
+                            <p class="team__text" lang="en">
+                                Marketing
+                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a class="social__link social__link--team" href="">
@@ -282,16 +364,20 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="team-thumb">
+                    <li class="team-item">
                         <img
                             src="./images/photo4.jpg"
                             alt="UI Designer"
                             width="270"
                             height="280"
                         >
-                        <div class="team-thumb__about">
-                            <h3 class="team-thumb__title">Михаил Ермаков</h3>
-                            <p class="team-thumb__text" lang="en">UI Designer</p>
+                        <div class="team__thumb">
+                            <h3 class="team__title">
+                                Михаил Ермаков
+                            </h3>
+                            <p class="team__text" lang="en">
+                                UI Designer
+                            </p>
                             <ul class="social">
                                 <li class="social__item">
                                     <a class="social__link social__link--team" href="">
@@ -327,10 +413,10 @@
                 </ul>
             </div>
         </section>
-        <section class="section clients">
+        <section class="section">
             <div class="container">
-                <h2 class="title clients__title">Постоянные клиенты</h2>
-                <ul class="clients__list">
+                <h2 class="section__title">Постоянные клиенты</h2>
+                <ul class="clients">
                     <li class="clients__item">
                         <a href="" class="clients__link">
                             <svg class="clients__icon" width="106" height="60">
@@ -380,9 +466,9 @@
     <footer class="footer">
         <div class="container footer__conteiner">
             <div class="footer-about">
-                <a class="logo footer--logo" href="#">
+                <a class="logo footer__logo" href="#">
                     Web
-                    <span class="bright--logo">
+                    <span class="logo__bright">
                         Studio
                     </span>
                 </a>

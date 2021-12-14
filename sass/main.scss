@@ -1,21 +1,21 @@
 @import "./utils/variables";
+@import "./utils/hidden";
+@import "./utils/mixins";
 
 @import "./components/reset";
 @import "./components/container";
 @import "./components/section";
 @import "./components/common";
-@import "./utils/hidden";
-
-@import "./components/header";
 @import "./components/logo";
-@import "./components/hero";
-@import "./components/benefits";
-@import "./components/business";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/footer";
-
+@import "./components/social";
 @import "./components/filter";
-@import "./components/portfolio";
-
 @import "./components/modal";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/business";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio";

@@ -43,7 +43,6 @@
   position: absolute;
   top: 8px;
   right: 8px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,21 +59,15 @@
 }
 
 .modal__title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
+  @include font($fw: 700, $fs: 20px, $lh: 1.15);
   color: $main-text-color;
-
   margin-bottom: 12px;
 }
 
 .modal-form__label {
   display: block;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font($fs: 12px, $lh: 1.17, $ls: 0.01em);
   color: $secondary-text-color;
   margin-bottom: 10px;
 }
@@ -125,9 +118,7 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   &::placeholder {
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include font($lh: 1.17, $ls: 0.01em);
     color: $input-placeholder-color;
   }
 }
@@ -141,9 +132,7 @@
 
 .modal-form__policy-text,
 .modal-form__checkbox-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font();
   color: $main-text-color;
 }
 
